@@ -1,0 +1,4 @@
+def Count_Digits(n):
+  return len(str(n))
+n=int(input())
+print(Count_Digits(n))
