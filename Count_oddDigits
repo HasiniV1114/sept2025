@@ -1,0 +1,9 @@
+#count of odd digits in a given number
+def odd_count(n):
+  count=0
+  for i in str(n):
+    if int (i)%2==1:
+      count+=1
+  return count
+n=int(input())
+print(odd_count(n))
