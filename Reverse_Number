@@ -1,0 +1,7 @@
+def Reverse_number(n):
+  if n<0:
+    return -int(str(abs(n))[::-1])
+  else:
+    return int(str(n)[::-1])
+n=int(input())
+print(Reverse_number(n))
